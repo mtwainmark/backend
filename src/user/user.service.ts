@@ -33,8 +33,4 @@ export class UserService {
   update(id: number, dto: UpdateUserDto) {
     return this.repository.update(id, dto);
   }
-
-  remove(id: number) {
-    return this.repository.delete(id);
-  }
 }
